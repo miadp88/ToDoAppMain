@@ -1,5 +1,5 @@
-
 name: Vue.js CI/CD
+
 on:
   push:
     branches:
@@ -26,4 +26,6 @@ jobs:
 
       - name: Build
         run: npm run build
+
+        # tester om testen går igennem
 
